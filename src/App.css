@@ -1,0 +1,84 @@
+.title{
+    position: absolute;
+    top: -50px;
+    left: 200px;
+}
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 40vh;
+    height: auto;
+    width: 35vw;
+    background-color: rgb(37, 35, 38);
+    border-radius: 20px;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+}
+
+.input-holder{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 20px;
+    padding: 30px;
+}
+
+.input-holder input{
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    opacity: 0.2;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    box-shadow: 10px 10px 5px wheat;
+    transition: 0.5s;
+}
+
+.input-holder input:focus{
+    box-shadow: 5px 5px 5px wheat;
+}
+
+.input-holder button{
+    padding: 20px;
+    margin-left: 20px;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+
+.input-holder button:hover{
+    background-color: rgb(91, 88, 92);
+}
+
+.todos-holder{
+    position: relative;
+    padding: 40px;
+    padding-left: 0px;
+}
+
+.todos-holder ul{
+    width: 400px;
+    font-size: large;
+    list-style: none;
+}
+
+.todos-holder ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.delete-btn{
+    border: none;
+}
