@@ -1,10 +1,8 @@
 # To-Do App
 
-## How to run the project
+** How to run the project **
 
-
-```
-Install All The Dependecies:
-npm install
+In Your Terminal run 
+`npm install` to install all the dependencies
+Then
 `npm run dev` to run the project
-```
